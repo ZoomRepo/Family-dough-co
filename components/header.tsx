@@ -21,6 +21,7 @@ export function Header() {
           <a href="/" className="flex items-center gap-2">
             <img src="/fdc-logo-tansparent.png" height="50px" width="50px"/>
             <div className="text-2xl md:text-3xl font-serif font-bold text-primary">
+              <img src="/fdc-logo-tansparent.png"  height="50px" width="50px" />
               Family Dough Co.</div>
           </a>
 
@@ -61,7 +62,7 @@ export function Header() {
                 {link.name}
               </a>
             ))}
-            <Button className="bg-muted hover:bg-muted/90 text-muted-foreground w-full">Shop Now</Button>
+            <Button className="bg-muted hover:bg-muted/90 text-muted-foreground w-full" onClick={() => window.location.href="#products"}>Shop Now</Button>
           </div>
         )}
       </nav>
