@@ -25,13 +25,13 @@ export function HeroSection() {
             Start Your Baking Journey
             <ArrowRight className="ml-2" size={20} />
           </Button>
-          <Button
+          {/* <Button
             size="lg"
             variant="outline"
             className="bg-card/90 hover:bg-card text-foreground border-2 border-muted text-lg px-8"
           >
             Learn More
-          </Button>
+          </Button> */}
         </div>
       </div>
     </section>

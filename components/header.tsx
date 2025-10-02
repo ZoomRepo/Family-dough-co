@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Link from "next/link"
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -19,9 +20,8 @@ export function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/fdc-logo-tansparent.png" height="50px" width="50px"/>
+            <img src="/fdc-logo-tansparent.png" height="100px" width="100px"/>
             <div className="text-2xl md:text-3xl font-serif font-bold text-primary">
-              <img src="/fdc-logo-tansparent.png"  height="50px" width="50px" />
               Family Dough Co.</div>
           </a>
 
@@ -36,7 +36,9 @@ export function Header() {
                 {link.name}
               </a>
             ))}
-            <Button className="bg-muted hover:bg-muted/90 text-muted-foreground">Shop Now</Button>
+            <Link href="/#products">
+              <Button className="bg-muted hover:bg-muted/90 text-muted-foreground">Shop Now</Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -62,7 +64,9 @@ export function Header() {
                 {link.name}
               </a>
             ))}
-            <Button className="bg-muted hover:bg-muted/90 text-muted-foreground w-full" onClick={() => window.location.href="#products"}>Shop Now</Button>
+            <Link href="/#products">
+              <Button className="bg-muted hover:bg-muted/90 text-muted-foreground w-full">Shop Now</Button>
+            </Link>
           </div>
         )}
       </nav>

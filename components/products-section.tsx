@@ -5,31 +5,31 @@ export function ProductsSection() {
   const products = [
     {
       name: "Classic Starter",
-      price: "$24",
+      price: "£10",
       image: "/sourdough-starter-in-glass-jar.jpg",
-      features: ["100% organic wheat", "7-day active culture", "Detailed care guide", "Recipe booklet included"],
-      popular: false,
-    },
-    {
-      name: "Heritage Blend",
-      price: "$32",
-      image: "/premium-sourdough-starter-in-ceramic-crock.jpg",
-      features: [
-        "Heirloom grain blend",
-        "14-day mature culture",
-        "Premium care guide",
-        "Video tutorials access",
-        "Ceramic storage crock",
-      ],
+      features: ["Premium Quality Organic Flour", "Ready to Bake", "Cooking and Care booklet included"],
       popular: true,
     },
-    {
-      name: "Rye Starter",
-      price: "$28",
-      image: "/rye-sourdough-starter-in-vintage-jar.jpg",
-      features: ["100% organic rye", "10-day active culture", "Specialty care guide", "Rye bread recipes"],
-      popular: false,
-    },
+    // {
+    //   name: "Heritage Blend",
+    //   price: "$32",
+    //   image: "/premium-sourdough-starter-in-ceramic-crock.jpg",
+    //   features: [
+    //     "Heirloom grain blend",
+    //     "14-day mature culture",
+    //     "Premium care guide",
+    //     "Video tutorials access",
+    //     "Ceramic storage crock",
+    //   ],
+    //   popular: true,
+    // },
+    // {
+    //   name: "Rye Starter",
+    //   price: "$28",
+    //   image: "/rye-sourdough-starter-in-vintage-jar.jpg",
+    //   features: ["100% organic rye", "10-day active culture", "Specialty care guide", "Rye bread recipes"],
+    //   popular: false,
+    // },
   ]
 
   return (
@@ -38,8 +38,8 @@ export function ProductsSection() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-6">Our Starters</h2>
           <p className="text-lg text-foreground/80 leading-relaxed">
-            Each starter is lovingly cultivated and ready to begin your baking journey. Choose the perfect match for
-            your artisan bread dreams.
+            Each starter is lovingly cultivated and ready to begin your baking journey. 
+            {/* Choose the perfect match for your artisan bread dreams. */}
           </p>
         </div>
 
