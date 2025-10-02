@@ -19,9 +19,9 @@ export function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/fdc-logo-tansparent.png" />
+            <img src="/fdc-logo-tansparent.png" height="50px" width="50px"/>
             <div className="text-2xl md:text-3xl font-serif font-bold text-primary">
-              <img src="/fdc-logo-tansparent.png" />
+              <img src="/fdc-logo-tansparent.png"  height="50px" width="50px"/>
               Family Dough Co.</div>
           </a>
 
