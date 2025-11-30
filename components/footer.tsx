@@ -14,27 +14,27 @@ export function Footer() {
               From daily loaves to weekend treats, we guide you to bake easily, affordably, and with confidence.
             </p>
             <div className="flex gap-4">
-              <a
+              {/* <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-muted/20 hover:bg-muted/30 flex items-center justify-center transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-muted/20 hover:bg-muted/30 flex items-center justify-center transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-muted/20 hover:bg-muted/30 flex items-center justify-center transition-colors"
                 aria-label="Email"
               >
                 <Mail size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 
