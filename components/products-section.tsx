@@ -6,7 +6,7 @@ export function ProductsSection() {
   const products = [
     {
       name: "80g Active Sourdough Starter",
-      price: "£8.00",
+      price: "£6.00",
       image: "/sourdough-image3.jpeg",
       features: ["Premium Quality Organic Flour", "Ready to Bake", "Cooking and Care guide included"],
       popular: true,
