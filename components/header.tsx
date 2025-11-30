@@ -12,7 +12,7 @@ export function Header() {
     // { name: "About", href: "#about" },
     { name: "Products", href: "#products" },
     { name: "Process", href: "#process" },
-    { name: "Testimonials", href: "#testimonials" },
+    // { name: "Testimonials", href: "#testimonials" },
   ]
 
   return (

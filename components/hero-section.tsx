@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
     <section className="relative min-h-[600px] md:min-h-[700px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img src="/fdc_crumb_honey_loaf.jpg" alt="Artisan sourdough bread" className="w-full h-full object-cover" />
+        <img src="/hero-image-new.jpg" alt="Artisan sourdough bread" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-primary/40" />
       </div>
 
@@ -18,10 +19,12 @@ export function HeroSection() {
         <p className="text-lg md:text-xl text-card/90 mb-8 max-w-2xl mx-auto leading-relaxed">
           From daily loaves to weekend treats, we guide you to bake easily, affordably, and with confidence.        </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="bg-muted hover:bg-muted/90 text-muted-foreground text-lg px-8">
-            Start Your Baking Journey
-            <ArrowRight className="ml-2" size={20} />
-          </Button>
+          <Link href="/#process">
+            <Button size="lg" className="bg-muted hover:bg-muted/90 text-muted-foreground text-lg px-8">
+              Start Your Baking Journey
+              <ArrowRight className="ml-2" size={20} />
+            </Button>
+          </Link>
           {/* <Button
             size="lg"
             variant="outline"

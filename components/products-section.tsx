@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Check } from "lucide-react"
+import Link from "next/link"
 
 export function ProductsSection() {
   const products = [
@@ -7,8 +8,9 @@ export function ProductsSection() {
       name: "80g Active Sourdough Starter",
       price: "£8.00",
       image: "/sourdough-image3.jpeg",
-      features: ["Premium Quality Organic Flour", "Ready to Bake", "Cooking and Care booklet included"],
+      features: ["Premium Quality Organic Flour", "Ready to Bake", "Cooking and Care guide included"],
       popular: true,
+      url: "https://www.etsy.com/uk/listing/4382824978/active-sourdough-starter-80g-with-jar",
     },
     // {
     //   name: "Heritage Blend",
@@ -74,15 +76,17 @@ export function ProductsSection() {
                     </li>
                   ))}
                 </ul>
-                <Button
-                  className={`w-full ${
-                    product.popular
-                      ? "bg-muted hover:bg-muted/90 text-muted-foreground"
-                      : "bg-secondary hover:bg-secondary/90 text-secondary-foreground"
-                  }`}
-                >
-                  Add to Cart
-                </Button>
+                <Link target="_blank" rel="noopener noreferrer" href={product.url}>
+                  <Button
+                    className={`w-full ${
+                      product.popular
+                        ? "bg-muted hover:bg-muted/90 text-muted-foreground"
+                        : "bg-secondary hover:bg-secondary/90 text-secondary-foreground"
+                    }`}
+                  >
+                    Buy Now
+                  </Button>
+                </Link>
               </div>
             </div>
           ))}

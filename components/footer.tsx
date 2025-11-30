@@ -57,11 +57,11 @@ export function Footer() {
                   How It Works
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#testimonials" className="text-primary-foreground/80 hover:text-muted transition-colors">
                   Testimonials
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
