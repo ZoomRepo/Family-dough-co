@@ -4,9 +4,9 @@ import { Check } from "lucide-react"
 export function ProductsSection() {
   const products = [
     {
-      name: "Classic Starter",
-      price: "£10",
-      image: "/sourdough-starter-in-glass-jar.jpg",
+      name: "80g Active Sourdough Starter",
+      price: "£8.00",
+      image: "/sourdough-image3.jpeg",
       features: ["Premium Quality Organic Flour", "Ready to Bake", "Cooking and Care booklet included"],
       popular: true,
     },
@@ -53,7 +53,7 @@ export function ProductsSection() {
             >
               {product.popular && (
                 <div className="absolute top-4 right-4 bg-muted text-muted-foreground px-4 py-1 rounded-full text-sm font-semibold z-10">
-                  Most Popular
+                  Homegrown
                 </div>
               )}
               <div className="aspect-square overflow-hidden">
@@ -63,7 +63,7 @@ export function ProductsSection() {
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-6 relative z-10 container mx-auto ">
                 <h3 className="font-serif text-2xl font-bold text-primary mb-2">{product.name}</h3>
                 <div className="text-3xl font-bold text-muted mb-6">{product.price}</div>
                 <ul className="space-y-3 mb-6">

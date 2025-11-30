@@ -11,8 +11,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <h3 className="font-serif text-3xl font-bold mb-4">Family Dough Co.</h3>
             <p className="text-primary-foreground/80 leading-relaxed mb-6">
-              Crafting memories, one loaf at a time. Premium sourdough starters for home bakers who value tradition and
-              quality.
+              From daily loaves to weekend treats, we guide you to bake easily, affordably, and with confidence.
             </p>
             <div className="flex gap-4">
               <a
@@ -43,11 +42,11 @@ export function Footer() {
           <div>
             <h4 className="font-serif text-xl font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li>
+              {/* <li>
                 <a href="#about" className="text-primary-foreground/80 hover:text-muted transition-colors">
                   About Us
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#products" className="text-primary-foreground/80 hover:text-muted transition-colors">
                   Products

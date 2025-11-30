@@ -9,7 +9,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navLinks = [
-    { name: "About", href: "#about" },
+    // { name: "About", href: "#about" },
     { name: "Products", href: "#products" },
     { name: "Process", href: "#process" },
     { name: "Testimonials", href: "#testimonials" },

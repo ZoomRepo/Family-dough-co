@@ -16,8 +16,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Family Dough Co. | Artisanal Sourdough Starters",
-  description: "Crafting memories, one loaf at a time. Premium sourdough starters for home bakers.",
+  title: "Family Dough Co. | Bake Fresh. Eat Well. Live Better.",
+  description: "From daily loaves to weekend treats, we guide you to bake easily, affordably, and with confidence.",
     generator: 'v0.app'
 }
 
@@ -28,6 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dmSans.variable} ${playfair.variable}`}>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Familydough" />
+      </head>
       <body className="antialiased">{children}</body>
     </html>
   )
