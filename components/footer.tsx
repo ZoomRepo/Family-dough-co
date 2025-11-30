@@ -75,7 +75,7 @@ export function Footer() {
             </div>
           </div> */}
         </div>
-
+{/* 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60 text-sm">
           <p>© {new Date().getFullYear()} Family Dough Co. All rights reserved.</p>
           <p className="mt-2">
@@ -87,7 +87,7 @@ export function Footer() {
               Terms of Service
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   )
