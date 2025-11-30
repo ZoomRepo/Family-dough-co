@@ -66,14 +66,14 @@ export function Footer() {
           </div>
 
           {/* Newsletter */}
-          <div>
+          {/* <div>
             <h4 className="font-serif text-xl font-bold mb-4">Stay Updated</h4>
             <p className="text-primary-foreground/80 mb-4 text-sm">Get baking tips, recipes, and special offers.</p>
             <div className="flex flex-col gap-2">
               <Input type="email" placeholder="Your email" className="bg-card text-card-foreground border-muted" />
               <Button className="bg-muted hover:bg-muted/90 text-muted-foreground w-full">Subscribe</Button>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60 text-sm">
